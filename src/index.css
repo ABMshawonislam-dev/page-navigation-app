@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MyMelodyFont';
+  src: url('./assets/fonts/BLMelody-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-default: #ECEEF1;
+  --color-hover: #D9DCE1;
+  --color-border: #E1E1E1;
+  --color-icon-active: #F59D0E;
+  --color-text-active: #1A1A1A;
+  --color-text-default: #677289;
+  --font-inter: "Inter", "sans-serif";
+  --font-melody: "MyMelodyFont", "sans-serif";
+}

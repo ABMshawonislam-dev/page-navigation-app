@@ -1,0 +1,26 @@
+.context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 150px;
+}
+
+.connector {
+  height: 2px;
+  background: #e5e7eb;
+  flex-grow: 1;
+}
+
+.connector.dashed {
+  background: repeating-linear-gradient(to right,
+      #e5e7eb 0,
+      #e5e7eb 5px,
+      transparent 5px,
+      transparent 10px);
+}
+
+.dragging {
+  cursor: grabbing !important;
+}
