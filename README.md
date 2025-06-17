@@ -1,47 +1,69 @@
+# 🧭 Page Navigation App
 
-### Explanation of the README
+![Logo](./public/vite.svg) <!-- Replace with your actual logo if available -->
 
-This README is crafted to meet senior-level standards for a GitHub repository, providing comprehensive documentation for developers and users. Here's a breakdown of its structure and content:
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/your-username/page-navigation-app/build.yml)](https://github.com/your-username/page-navigation-app/actions)
+[![Stars](https://img.shields.io/github/stars/your-username/page-navigation-app?style=social)](https://github.com/your-username/page-navigation-app)
 
-1. **Project Overview**:
-   - Clearly describes the application as a React-based page navigation system with drag-and-drop and context menu features.
-   - Highlights the use of modern tools like Vite, `@dnd-kit`, and Tailwind CSS.
+A **React-based** web application featuring a **draggable, sortable page navigation bar** with a powerful context menu for page management.  
+Built using **Vite**, `@dnd-kit`, `lucide-react`, and **Tailwind CSS** for a modern and responsive UI.
 
-2. **Table of Contents**:
-   - Includes a navigable table of contents for quick access to sections, improving readability.
+---
 
-3. **Features**:
-   - Lists key functionalities in a concise, user-focused manner, emphasizing drag-and-drop, context menu, and responsive design.
+## 📚 Table of Contents
 
-4. **Tech Stack**:
-   - Details the technologies used, including libraries and frameworks, to give developers a clear understanding of the project's dependencies.
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Components](#-components)
+- [Contributing](#-contributing)
+- [Development Guidelines](#-development-guidelines)
+- [Potential Improvements](#-potential-improvements)
+- [License](#-license)
 
-5. **Installation**:
-   - Provides step-by-step instructions for cloning, installing, and running the project locally, including production build commands.
-   - Assumes a standard Node.js environment, making it accessible to most developers.
+---
 
-6. **Usage**:
-   - Explains how to interact with the app (e.g., navigating, reordering, adding pages, and using the context menu).
-   - Notes unimplemented features (e.g., Rename, Copy) for transparency.
+## ✨ Features
 
-7. **Project Structure**:
-   - Outlines the file structure with descriptions of key files and directories, aiding navigation for new contributors.
-   - Uses a clear, formatted ASCII tree for visual clarity.
+✅ **Drag-and-Drop Navigation**  
+Reorder pages using drag-and-drop, powered by `@dnd-kit`.
 
-8. **Components**:
-   - Describes the role of each major component (`App.jsx`, `PageNav.jsx`, `PageItem.jsx`) with details on their functionality.
-   - Notes potential refactoring opportunities (e.g., DOM manipulation in `App.jsx`) to guide future improvements.
+✅ **Context Menu on Right Click**  
+Set as first page, Rename, Copy, Duplicate, Delete (some are WIP).
 
-9. **Contributing**:
-   - Provides clear instructions for contributing, including branching, committing, and pull request guidelines.
-   - Includes development guidelines to ensure consistency (e.g., commenting, testing, formatting).
-   - Suggests specific areas for improvement to encourage meaningful contributions.
+✅ **Dynamic Page Addition**  
+Add pages between or at the end of the nav bar.
 
-10. **License**:
-    - Specifies the MIT License, with a placeholder for a `LICENSE` file, following standard open-source practices.
+✅ **Responsive UI**  
+Styled with Tailwind CSS for desktop and mobile support.
 
-11. **Artifact Compliance**:
-    - Wrapped the entire README content in an `<xaiArtifact>` tag with a unique `artifact_id`, `title="README.md"`, and `contentType="text/markdown"`.
-    - Ensured the content is complete, well-structured, and suitable for GitHub rendering.
+✅ **Keyboard Accessibility**  
+Navigate and reorder pages using the keyboard.
 
-This README balances technical detail with accessibility, making it suitable for both new users and experienced developers contributing to the project. It follows senior-level documentation practices by being thorough, organized, and actionable.
+✅ **Active Page Highlight**  
+Current page gets special styling with context menu trigger.
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – UI Library
+- **Vite** – Lightning-fast bundler
+- **@dnd-kit/core & sortable** – Drag-and-drop sorting
+- **lucide-react** – Elegant icon system
+- **Tailwind CSS** – Utility-first modern styling
+- **TypeScript-like Practices** – Type-safe patterns with JSDoc and interfaces (JS only)
+
+---
+
+## 📦 Installation
+
+> Requires **Node.js v16+**
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/page-navigation-app.git
+cd page-navigation-app
