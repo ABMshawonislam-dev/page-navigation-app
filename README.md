@@ -16,13 +16,6 @@ Built using **Vite**, `@dnd-kit`, `lucide-react`, and **Tailwind CSS** for a mod
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Components](#-components)
-- [Contributing](#-contributing)
-- [Development Guidelines](#-development-guidelines)
-- [Potential Improvements](#-potential-improvements)
-- [License](#-license)
 
 ---
 
@@ -36,9 +29,6 @@ Set as first page, Rename, Copy, Duplicate, Delete (some are WIP).
 
 ✅ **Dynamic Page Addition**  
 Add pages between or at the end of the nav bar.
-
-✅ **Responsive UI**  
-Styled with Tailwind CSS for desktop and mobile support.
 
 ✅ **Keyboard Accessibility**  
 Navigate and reorder pages using the keyboard.
@@ -55,7 +45,6 @@ Current page gets special styling with context menu trigger.
 - **@dnd-kit/core & sortable** – Drag-and-drop sorting
 - **lucide-react** – Elegant icon system
 - **Tailwind CSS** – Utility-first modern styling
-- **TypeScript-like Practices** – Type-safe patterns with JSDoc and interfaces (JS only)
 
 ---
 
@@ -67,3 +56,5 @@ Current page gets special styling with context menu trigger.
 ```bash
 git clone https://github.com/your-username/page-navigation-app.git
 cd page-navigation-app
+npm install
+npm run dev
